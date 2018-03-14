@@ -18,5 +18,5 @@ roscore && rosrun pololu_maestro_ros set_servo_server
 
 Test service with service-client test node
 ```
-rosrun pololu_maestro_ros set_servo_test
+rosrun pololu_maestro_ros set_servo_test [channel 0-23] [target 4000-8000]
 ```
