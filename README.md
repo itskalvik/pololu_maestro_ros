@@ -24,4 +24,5 @@ rosrun pololu_maestro_ros set_servo_test channel target
 Valid values for set_servo_test 
 
 channel : 0-23
+
 target  : 4000-8000
